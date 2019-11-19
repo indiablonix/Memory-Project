@@ -61,6 +61,7 @@ Card deck
 .card-deck .card {
   width: 125px;
   height: 125px;
+  font-size: 0;
   background: #5d6d70;
   border-radius: 20px;
   list-style-type: none;
@@ -68,3 +69,5 @@ Card deck
   justify-content: center;
   box-shadow: 1px 1px 10px #5d6d70;
 }
+
+.card-deck .card.show 

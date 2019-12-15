@@ -39,6 +39,7 @@ Score Panel
   float: right;
   padding-top: 15px;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 /***************************************
@@ -67,7 +68,24 @@ Card deck
   list-style-type: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   box-shadow: 1px 1px 10px #5d6d70;
+  cursor: pointer;
 }
 
-.card-deck .card.show 
+.card-deck .card.open {
+  transform: rotateY(0);
+  background: #02b3e4;
+  cursor: default;
+}
+
+.card-deck .card.show {
+  font-size: 33px;
+}
+
+.card-deck .card.match {
+  cursor: default;
+    background: #02ccba;
+    font-size: 33px;
+}
+
